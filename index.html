@@ -94,6 +94,9 @@
             }
             @keyframes orbit {
                 0% {
+                    opacity: 0;
+                }
+                1% {
                     transform: rotate(225deg);
                     opacity: 1;
                     animation-timing-function: ease-out;
@@ -130,6 +133,10 @@
             }
             @-webkit-keyframes orbit {
                 0% {
+                    opacity: 0;
+                    -webkit-opacity: 0;
+                }
+                1% {
                     transform: rotate(225deg);
                     opacity: 1;
                     animation-timing-function: ease-out;
